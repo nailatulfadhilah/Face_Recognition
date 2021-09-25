@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw
 from IPython.display import display
 import urllib.request
 
-def detect_face(filename_img1, filename_img2, name_img1, name_img2, unknown_img):
+def detect_face(filename_img1, name_img1, filename_img2, name_img2, unknown_img):
     # This is an example of running face recognition on a single image
     # and drawing a box around each person that was identified.
     #url1 = filename_img1
@@ -69,4 +69,4 @@ def detect_face(filename_img1, filename_img2, name_img1, name_img2, unknown_img)
     del draw
 
     # Display the resulting image
-    display(pil_image)
+    return pil_image
