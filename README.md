@@ -6,6 +6,6 @@
 ### Run Demo
 You can run the interface by running this code:
 ```bash
-python gradio_face_recognition.py
+python app.py
 ```
 
