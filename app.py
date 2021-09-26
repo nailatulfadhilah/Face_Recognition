@@ -14,4 +14,4 @@ inputs = [gr.inputs.Image(label="Picture of Person 1", type="file"),
          ]
 outputs = gr.outputs.Image(label="Result", type="pil")
 gr.Interface(fn=detect_face, inputs=inputs, outputs=outputs, title=title, description=desc,
-             examples=examples).launch()
+             examples=examples, allow_flagging=False).launch()
