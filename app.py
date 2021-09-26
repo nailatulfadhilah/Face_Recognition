@@ -4,7 +4,8 @@ from face_recog import detect_face
 title = "Face Recognition"
 desc = "Upload the pictures of 2 people you already know and also upload the picture that you want to identify"
 
-examples = [["images/taylor.jpg", "Taylor Swift", "images/selena.jpg", "Selena Gomez", "images/taylorselena.jpg"]]
+examples = [["images/yannlecun.jpeg", "Yann Lecun", "images/yoshua_bengio.jpeg", "Yoshua Bengio", "images/yann_yoshua.jpg"],
+            ["images/taylor.jpg", "Taylor Swift", "images/selena.jpg", "Selena Gomez", "images/taylorselena.jpg"]]
 
 inputs = [gr.inputs.Image(label="Picture of Person 1", type="file"),
           gr.inputs.Textbox(label="Name of Person 1"),
